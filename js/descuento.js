@@ -47,4 +47,4 @@ function clean_all() {
         input.value = '';
         });
     });
-}
+} 
