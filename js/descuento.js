@@ -48,11 +48,3 @@ function clean_all() {
         });
     });
 }
-
-
-let discountStudent = document.querySelector(".Trainee");
-discountStudent.addEventListener("click", updateCategory);
-let discountTrainee = document.querySelector(".trainee");
-discountTrainee.addEventListener("click", updateCategory);
-let discountJunior = document.querySelector(".junior");
-discountJunior.addEventListener("click", updateCategory);
