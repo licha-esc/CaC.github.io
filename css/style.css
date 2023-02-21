@@ -16,6 +16,10 @@ form {
     width: 100%;
 }
 
+.text-venta {
+    color: rgb(191, 122, 255);
+}
+
 @media (min-width: 576px) {
     .carousel-caption {
         width: 50%;
@@ -134,18 +138,22 @@ form {
     }
 }
 
+.nav-item:hover {
+    border-radius: 2px;
+}
+
 #swing:hover {
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    background: linear-gradient(0deg, rgba(77,70,70,0.41780462184873945) 0%, rgba(255,255,255,1) 95%);
+    background:  rgb(206, 207, 196);
 }
 
 #intro:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .ok:hover {
@@ -155,9 +163,28 @@ form {
 }
 
 #input:hover {
-    background: linear-gradient(0deg, rgba(77,70,70,0.41780462184873945) 0%, rgba(255,255,255,1) 95%);
+    border: 2px solid yellow;
+}
+
+#input:focus {
+    background-color: rgba(41, 36, 71, 0.5);
+    border: solid 2px yellow;
+    box-shadow: 0 0 4px #eb50ff4f;
+    color: white;
 }
 
 #exampleFormControlTextarea1:hover{
-    background: linear-gradient(0deg, rgba(77,70,70,0.41780462184873945) 0%, rgba(255,255,255,1) 95%);
+    border: 2px solid yellow;
+    /* background: linear-gradient(0deg, rgba(77,70,70,0.41780462184873945) 0%, rgba(255,255,255,1) 95%); */
+}
+
+#exampleFormControlTextarea1:focus {
+    background-color: rgba(30, 23, 70, 0.5);
+    border: solid 2px yellow;
+    box-shadow: 0 0 4px #eb50ff4f;
+    color: white;
+}
+
+#resultado {
+    background-color: rgb(155, 200, 222);
 }
